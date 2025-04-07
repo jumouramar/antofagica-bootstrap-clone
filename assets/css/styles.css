@@ -2,6 +2,10 @@ footer {
     background-color: black;
 }
 
+footer ul {
+    margin-left: 3rem;
+}
+
 footer img {
     max-width: 200px;
 }
