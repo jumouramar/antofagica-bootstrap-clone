@@ -20,10 +20,11 @@ footer {
     background-color: black;
 }
 
-footer ul {
-    margin-left: 3rem;
-}
-
 footer img {
     max-width: 200px;
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+    color: #dcb292 !important;
 }
