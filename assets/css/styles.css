@@ -54,3 +54,30 @@ footer a:hover {
     text-decoration: underline !important;
     color: #dcb292 !important;
 }
+
+/* CONTATO - FORM */
+
+form .form-control {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background-color: #f8f8f8;
+}
+
+form .btn-dark {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0;
+    font-size: small;
+    padding: 11px 34px;
+    transition: all 0.3s ease;
+}
+  
+form .btn-dark:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0;
+    font-size: small;
+    padding: 11px 34px;
+}
