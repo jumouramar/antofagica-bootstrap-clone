@@ -2,6 +2,8 @@
 
 Este é um estudo do toolkit Bootstrap v5.0. Alguns elementos foram intencionalmente adicionados ou ajustados para o uso exclusivo do bootstrap. O uso do CSS foi limitado para aproveitar o máximo do bootstrap. Veja o [site oficial da editora Antofágica](https://www.antofagica.com.br/).
 
+Deploy: https://jumouramar.github.io/antofagica-bootstrap-clone/
+
 Componentes aplicados:
 - Alert
 - Badge
