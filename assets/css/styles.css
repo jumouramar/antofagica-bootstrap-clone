@@ -81,3 +81,36 @@ form .btn-dark:hover {
     font-size: small;
     padding: 11px 34px;
 }
+
+/* AUTOR CARD */
+
+.circular-card {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.overlay-text {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1817D4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.6s ease;
+    text-align: center;
+    padding: 40px;
+}
+
+.circular-card:hover .overlay-text {
+    opacity: 1;
+}
